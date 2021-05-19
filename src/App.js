@@ -7,7 +7,7 @@ import NotesStack from './routes';
 
 const key = 'notes';
 
-const App: () => Node = () => {
+const App = () => {
   const [notes, setNotes] = useState([]);
 
   useEffect(() => {
